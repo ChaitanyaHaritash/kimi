@@ -1,14 +1,18 @@
 # kimi - Malicious Debian Package generator
 Script to generate malicious debian packages (debain trojans).
 
-# About & Usage :::
+# About & Plus points & Usage & Tested On :::
     Kimi is name inspired from "Kimimaro" one of my favriote charater from anime called "Naruto".
 
     Kimi is a script which generates Malicious debian package for metasploit
     which consists of bash file. the bash file is deployed into "/usr/local/bin/" directory.
     Bash file injects and acts like some system command which when executed by victim 
     and attacker hits with session.
-
+    
+    Plus Points :
+    -- Fully indiependent. Means user no need to install any debian package creator
+    -- Can be integrated with any payload generator easily due to engagements of arguemt (lame :P i know) 
+    
     Kimi basically depends upon web_delivery module and every thing is automated. 
     all the attacker needs is to do following settings :
     
@@ -31,6 +35,10 @@ Script to generate malicious debian packages (debain trojans).
     NOTE :: This project was made to be integrated with Venom Shellcode Generator 1.0.13.
     It can be used standalone also all user needs is to change uripath in msf variables
     -------------------------------------------------------------------------------------
+    
+    Tested on :
+                Linux Mint 17.2 Cinnamon (Ubuntu 14.04) 
+                ParrotOS (Debian Jessie)
 
 # ScreenShots :::
 
@@ -40,5 +48,5 @@ Script to generate malicious debian packages (debain trojans).
 # Shouts to :::
   Suspicious Shell Activity [Red Team]
 # Doubts? Insults?
-  Twitter : @bofheaded
-  
+   Twitter : @bofheaded
+   Wrote while listening jams of Vidya VOX ;) 
