@@ -1,4 +1,4 @@
-
+# kimi - Malicious Debian Package generator
 Script to generate malicious debian packages (debain trojans).
 
 # About & Usage :::
