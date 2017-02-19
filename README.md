@@ -48,5 +48,5 @@ Script to generate malicious debian packages (debain trojans).
 # Shouts to :::
   Suspicious Shell Activity [Red Team]
 # Doubts? Insults?
-   Twitter : @bofheaded
-   Wrote while listening jams of Vidya VOX ;) 
+   Twitter : @bofheaded 
+    | Wrote while listening jams of Vidya VOX ;) 
