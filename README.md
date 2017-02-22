@@ -6,7 +6,10 @@ Script to generate malicious debian packages (debain trojans).
 
     Kimi is a script which generates Malicious debian package for metasploit
     which consists of bash file. the bash file is deployed into "/usr/local/bin/" directory.
-    Bash file injects and acts like some system command which when executed by victim 
+    
+    Backdoor gets executed just when victim tries to install deb package due to postinst file
+    
+    Bash file injects and also acts like some system command which when executed by victim 
     and attacker hits with session.
     
     Plus Points :
@@ -39,11 +42,17 @@ Script to generate malicious debian packages (debain trojans).
     Tested on :
                 Linux Mint 17.2 Cinnamon (Ubuntu 14.04) 
                 ParrotOS (Debian Jessie)
+                Kali Rolling 2.0
+# Updates :::
+    -- Added "postinst" file creation function to make embeded malicious file execution automated
+    -- Added RC file generation function to fully automate with handler opening, means no need to 
+        set handler manually
+    -- Patched some common bugs [special thanks to r00t 3xp10it :)]
 
 # ScreenShots :::
 
-![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/main_banner.png)
-![Kimi In Action](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/exploiting.png)
+![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/main_banner1.1.png)
+![Kimi In Action](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/exploiting1.1.png)
 
 # Shouts to :::
   Suspicious Shell Activity [Red Team]
