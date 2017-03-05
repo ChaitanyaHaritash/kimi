@@ -54,6 +54,10 @@ Script to generate malicious debian packages (debain trojans).
 ![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/main_banner1.1.png)
 ![Kimi In Action](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/exploiting1.1.png)
 
+# Misc :::
+       Blog Post     : http://hackinguyz.blogspot.in/2017/03/kimi-malicious-debian-package-creator.html
+       YouTube Video : https://youtu.be/Dsn6BRHy9_w  
+
 # Shouts to :::
   Suspicious Shell Activity [Red Team]
 # Doubts? Insults?
