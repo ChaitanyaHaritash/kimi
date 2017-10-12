@@ -44,11 +44,15 @@ Script to generate malicious debian packages (debain trojans).
                 ParrotOS (Debian Jessie)
                 Kali Rolling 2.0
 # Updates :::
+    [Feb-22-2017]
     -- Added "postinst" file creation function to make embeded malicious file execution automated
     -- Added RC file generation function to fully automate with handler opening, means no need to 
         set handler manually
     -- Patched some common bugs [special thanks to r00t 3xp10it :)]
-
+    
+    [Oct-12-2017]
+    -- Added command line argument(-a/--arch) to select architecture(i386/amd64)
+    
 # ScreenShots :::
 
 ![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/kimi.PNG)
