@@ -51,7 +51,7 @@ Script to generate malicious debian packages (debain trojans).
 
 # ScreenShots :::
 
-![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/main_banner1.1.png)
+![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/kimi.PNG)
 ![Kimi In Action](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/exploiting1.1.png)
 
 # Misc :::
