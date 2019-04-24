@@ -53,6 +53,11 @@ Script to generate malicious debian packages (debain trojans).
     [Oct-12-2017]
     -- Added command line argument(-a/--arch) to select architecture(i386/amd64)
     
+    [April-24-2019] - Test Release.
+    -- Now custom URI and LPORT can be set
+    -- Python payload has been updated according to python 2/3 and latest version of Metasploit 5 too.
+    -- Whole code is re-implemented though its still supporting python 2.7
+    
 # ScreenShots :::
 
 ![Main Banner](https://raw.githubusercontent.com/ChaitanyaHaritash/kimi/master/screenshots/kimi.PNG)
@@ -66,4 +71,3 @@ Script to generate malicious debian packages (debain trojans).
   Suspicious Shell Activity [Red Team]
 # Doubts? Insults?
    Twitter : @bofheaded 
-    | Wrote while listening jams of Vidya VOX ;) 
